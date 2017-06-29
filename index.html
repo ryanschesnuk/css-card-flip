@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Flip</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href=
+    "https://fonts.googleapis.com/css?family=Fauna+One|Playfair+Display:400,700"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/card-flip.css">
+  </head>
+  <body>
+    <header>
+      <h1>Card Flip</h1>
+    </header>
+
+    <div class="container">
+      <div class="card-collection">
+        <div class="card-container">
+          <input type="checkbox" id="card1-toggle" value="toggle">
+            <div class="card" id="card1">
+              <div class="face front">
+                <label for="card1-toggle">
+                  <h2>Click to Flip</h2>
+                  <div class="separator"></div>
+                  <p>1</p>
+                </label>
+              </div>
+                <label for="card1-toggle">
+                  <div class="face back">
+                    <p>Here is the other side</p>
+                  </div>
+                </label>
+              </div>
+            </div>
+        <div class="card-container">
+          <input type="checkbox" id="card2-toggle" value="toggle">
+          <div class="card" id="card2">
+          <div class="face front">
+            <label for="card2-toggle">
+            <h2>Click to Flip</h2>
+            <div class="separator"></div>
+            <p>2</p>
+          </label>
+          </div>
+          <label for="card2-toggle">
+          <div class="face back">
+            <p>Here is the other side<p>
+          </div>
+        </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </body>
+</html>
